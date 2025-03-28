@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MULTI-MEDIA RICH WEBPAGE</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our Multi-media rich webpage</h1>
+    </header>
+
+    <!-- 1. Creating an ordered list. -->
+    <h3>Ordered List</h3>
+    <ol type="I" start="1">
+        <li>Adesanya Omonigo</li>
+        <li>Ademola Lookman</li>
+        <li>Omegah Chibuike</li>
+        <li>Alamefule Hoshea</li>
+        <li>Asiwaju Tinubu</li>
+    </ol>
+
+    <!-- 2. Adding an image from pexels. -->
+    <img src="IMAGES/pexels-ten-ten-689615403-23224477.jpg" alt="" width="500px" height="400px">
+
+    <!-- 3. Adding a table. -->
+    <table border="2px">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sammy's Hub</td>
+                <td>24 Mowe Road </td>
+                <td>08054267812</td>
+                <td>sammyhub@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alamefule Hoshea</td>
+                <td>17 Olatunji Street Ojota</td>
+                <td>08056183693</td>
+                <td>alamefulehoshea@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Omegah Chibuikem</td>
+                <td>24 Victoria Street Ojota</td>
+                <td>09013772668</td>
+                <td>chibuikeomegah@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Emmanuel Favour</td>
+                <td>28 Fausat Shomade Street Irawo</td>
+                <td>09025371183</td>
+                <td>emmanuelfavour@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Chinonso Ubah</td>
+                <td>59 Oregun Road Ikeja</td>
+                <td>07055178295</td>
+                <td>chinonsoubah@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- 4. Creating a form. -->
+    <div class="form-container">
+        <h2>Registeration Form.</h2>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter Fullname" required>
+                <br><br>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter Email" required>
+                <br><br>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" placeholder="password" required>
+                <br><br>
+            </div>
+            <div class="form-group">
+                <label for="date">Select Date:</label>
+                <input type="date" id="date" name="date" required>
+                <br><br>
+            </div>
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select your country</option>
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="uk">South Africa</option>
+                    <option value="india">Nigeria</option>
+                    <option value="australia">Kenya</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+                <label for="newsletter">Newsletter Subscription:</label>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">I want to receive newsletters</label>
+            </div>
+            
+            <input type="submit" value="Register">
+
+        </form>
+    </div>
+</body>
+
+</html>
